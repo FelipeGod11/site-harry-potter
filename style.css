@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor1: #7f0909;
+    --cor2: #ffc500;
+    --cor3: red;
+}
+
+img {
+    min-width: 320;
+    max-width: 600px;
+    width: 100%;
+    
+}
+
+.titulo {
+    text-align: center;
+}
+
+.resumo {
+    font-size: 1.5em;
+}
+
+.livros img {
+    width: 100%;
+    max-width: 210px;
+    margin: 10px;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    color: white;
+    padding: 5px;
+}
+
+footer > p {
+    text-align: center;
+    color: black;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
